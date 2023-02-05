@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Password&nbsp;Generator</title>
+    <!--Fontawesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!--Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+      <h2>Password Generator</h2>
+      <center>By.rdpgz18</center>
+      <br/>
+       <hr/><br>
+        <input type="text" id="output">
+        <button>
+            <i class="fas fa-random" onclick="genPassword()"></i>
+        </button>
+        <button>
+            <i class="far fa-copy" onclick="copyClipboard()"></i>
+        </button>
+        <input type="range" id="length" min="6" max="30" value="6" oninput="genPassword()">
+        <h3 id="length-val">6</h3>
+    </div>
+   <footer id="footer-container">
+     <p>&copy;&nbsp;<script>document.write(new Date().getFullYear());</script>&nbsp;<a href="https://www.garpuhnet.my.id">Garpuhnet</a>&nbsp;|&nbsp;ALLRight Reserved</p>
+   </footer>
+<!--Script-->
+<script src="script.js"></script>
+</body>
+</html>
