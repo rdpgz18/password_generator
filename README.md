@@ -1,2 +1,2 @@
 # passwor-generator
-Author : anonyms2
+Author : rdpgz18 | garpuhnet
